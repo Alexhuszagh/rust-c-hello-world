@@ -1,6 +1,6 @@
 # `hellopp`
 
-> Minimal example of using C++ from Rust
+> Minimal example of using C from Rust
 
 ## License
 

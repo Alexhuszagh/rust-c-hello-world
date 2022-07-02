@@ -4,10 +4,9 @@ use cc::Build;
 
 fn main() {
     Build::new()
-        .cpp(true)
-        .file("hellopp.cc")
-        .compile("libhellopp.a");
+        .file("hello.c")
+        .compile("libhello.a");
 
     println!("cargo:rerun-if-changed=build.rs");
-    println!("cargo:rerun-if-changed=hellopp.cc");
+    println!("cargo:rerun-if-changed=hello.c");
 }
